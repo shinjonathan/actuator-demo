@@ -37,7 +37,7 @@ Run it with port 8080 exposed on the host and container
 
 In a separate shell, you will want to run `sh load_samples.sh`
 
-### Primer on Actuator Metrics
+## Primer on Actuator Metrics
 Either in a web browser navigate to `http://localhost:8080/actuator/metrics`
 
 Any metrics supplied by that endpoint is traversable if you drop that into the url path.
