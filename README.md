@@ -1,4 +1,4 @@
-# Actuator Sample Project
+# Spring Actuator Sample Project
 
 This project spins up a simple Spring Boot Web project
 and exposes several actuator endpoints
@@ -26,9 +26,8 @@ sh load_samples.sh
 This will provide some information to be exposed via the actuator metrics endpoint.
 
 
-## Docker
-If you prefer to boot this project using docker, you may do so
-First build the docker image:
+## The Docker Way
+If you prefer to boot this project using docker, you may do so by first building the docker image:
 
 `docker build -t actuator-demo .`
 
